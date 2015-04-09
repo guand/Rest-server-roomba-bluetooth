@@ -14,4 +14,4 @@ app.get('/connect', bluetooth.connect);
 app.post('/move', bluetooth.move);
 
 app.listen(8080);   
-console.log('Magic happens on port 8080');          // shoutout to the user
+console.log('Running on port 8080');          // shoutout to the user
